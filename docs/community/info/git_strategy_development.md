@@ -109,5 +109,6 @@ git push origin feature/my-cta-strategies
 
 ## 延伸阅读
 
+- **新同学入门**：先掌握策略编写与回测流程可参考 [新同学编程入门与实操](newcomer_quickstart.md)。
 - **历史回测**：编写回测脚本在 PyCharm 中运行，可参考 [CTA回测](../app/cta_backtester.md) 及仓库中的 [回测示例](https://github.com/vnpy/vnpy/blob/master/examples/cta_backtesting/backtesting_demo.ipynb)。
 - **策略基础组件**：了解 **BarGenerator**（K 线合成器）与 **ArrayManager**（时间序列数组）的用法，可查阅 vnpy 源码中 `vnpy.trader.utility` 模块及 CTA 策略相关文档。
